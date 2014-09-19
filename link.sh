@@ -5,6 +5,10 @@ symlinks=(
   .gitconfig
   .gitignore-global
   .oh-my-zsh
+  .gemrc
+  .local
+  .exports
+  .functions
   .zshrc
 )
 
