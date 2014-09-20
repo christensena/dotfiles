@@ -9,3 +9,5 @@
 	trustExitCode = true
 [push]
 	default = simple
+[core]
+	excludesfile = ~/.gitignore-global
