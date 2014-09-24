@@ -10,6 +10,7 @@ symlinks=(
   .exports
   .functions
   .zshrc
+  .vimrc
 )
 
 info () {
