@@ -1,0 +1,35 @@
+#!/bin/bash
+
+brew update
+
+brew upgrade
+
+brew install git
+brew install node
+brew install rbenv ruby-build
+
+brew install wget --enable-iri
+brew install coreutils findutils
+brew install openssl
+brew install z
+
+brew install bash zsh
+
+brew install heroku-toolbelt
+brew install awscli
+
+brew install macvim --override-system-vim
+
+brew install mongodb postgresql
+
+# stuff needed for @jeef3's handy dandy gifify
+brew install ffmpeg
+brew tap phinze/homebrew-cask
+brew install brew-cask
+brew cask install x-quartz
+open /usr/local/Cellar/x-quartz/2.7.4/XQuartz.pkg
+brew install gifsicle
+brew install imagemagick
+
+brew cleanup
+

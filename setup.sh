@@ -8,7 +8,8 @@ git submodule update
 # Homebrew
 ruby <(curl -fsSkL raw.github.com/mxcl/homebrew/go)
 
-./.brew
+./setup/brew
+./setup/npm
 
 # Link dotfiles
 ./link.sh
