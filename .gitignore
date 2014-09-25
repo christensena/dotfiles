@@ -1,1 +1,5 @@
 .local
+.vim/.netrwhist
+.vim/backup/*
+.vim/swaps/*
+.vim/undo/*

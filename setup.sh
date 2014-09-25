@@ -10,6 +10,7 @@ ruby <(curl -fsSkL raw.github.com/mxcl/homebrew/go)
 
 ./setup/brew
 ./setup/npm
+./setup/osx
 
 # Link dotfiles
 ./link.sh
