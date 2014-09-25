@@ -11,6 +11,7 @@ symlinks=(
   .functions
   .zshrc
   .vimrc
+  .vim
 )
 
 info () {
