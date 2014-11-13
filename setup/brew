@@ -22,6 +22,8 @@ brew install macvim --override-system-vim
 
 brew install mongodb postgresql
 
+brew install p7zip
+
 # stuff needed for @jeef3's handy dandy gifify
 brew install ffmpeg
 brew tap phinze/homebrew-cask

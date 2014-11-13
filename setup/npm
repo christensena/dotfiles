@@ -1,4 +1,5 @@
 #!/bin/bash
 
-npm install -g grunt-cli mocha bower
+npm install -g grunt-cli mocha bower gulp jscs
+npm install -g coffee-script
 npm install -g yo generator-angular-fullstack
