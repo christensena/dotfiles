@@ -6,7 +6,7 @@ symlinks=(
   .gitignore-global
   .oh-my-zsh
   .gemrc
-  .local
+  .private
   .exports
   .functions
   .zshrc
