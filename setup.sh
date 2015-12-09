@@ -6,7 +6,7 @@ git submodule init
 git submodule update
 
 # Homebrew
-ruby <(curl -fsSkL raw.github.com/mxcl/homebrew/go)
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 ./setup/brew
 ./setup/npm
