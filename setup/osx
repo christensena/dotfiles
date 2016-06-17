@@ -57,4 +57,8 @@ defaults write com.apple.dock no-glass -bool true
 # Automatically hide and show the Dock
 defaults write com.apple.dock autohide -bool true
 
+# enable advanced image options in disk utility https://www.reddit.com/r/osx/comments/3q26am/el_capitan_formatted_usb_drives_dont_work_on/
+defaults write com.apple.DiskUtility advanced-image-options 1
+
+
 

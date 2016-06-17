@@ -15,7 +15,7 @@ brew install z
 
 brew install bash zsh
 
-brew install heroku-toolbelt
+brew install heroku
 brew install awscli
 
 brew install macvim --override-system-vim
