@@ -6,11 +6,11 @@ git submodule init
 git submodule update
 
 # Homebrew
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+#ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-./setup/brew
+#./setup/brew
 ./setup/npm
-./setup/osx
+#./setup/osx
 
 # Link dotfiles
 ./link.sh

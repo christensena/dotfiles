@@ -83,7 +83,7 @@ unset file
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-eval "$(rbenv init -)"
+#eval "$(rbenv init -)"
 
-alias rake="noglob bundled_rake"
+#alias rake="noglob bundled_rake"
 
