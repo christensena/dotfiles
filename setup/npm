@@ -1,9 +1,4 @@
-#!/bin/bash
-
-npm install -g grunt-cli mocha bower gulp jscs
 npm install -g typescript@latest
 npm install -g yo 
-npm install -g webpack webpack-dev-server
-npm install -g babel-cli
 npm install -g http-server
 

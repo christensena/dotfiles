@@ -12,6 +12,7 @@ symlinks=(
   .zshrc
   .vimrc
   .vim
+  .bashrc
 )
 
 info () {
