@@ -2,13 +2,9 @@
 export LC_ALL="en_US.UTF-8"
 export LANG="en_US"
 
-# Make vim the default editor
 export EDITOR="vim"
 
 # Turn on some more colors
 export CLICOLOR=1
-
-# Flex SDK
-export FLEX_HOME=$HOME/Work/sdks/flex_sdk_4.6
 
 
