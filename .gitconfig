@@ -2,10 +2,10 @@
 	name = Alan Christensen
 	email = alan@christensen.org.nz
 [difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
+	cmd = /usr/local/bin/bcomp \"$LOCAL\" \"$REMOTE\"
+	path = -ro
 [mergetool "sourcetree"]
-	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	cmd = /usr/local/bin/bcomp \"$LOCAL\" \"$REMOTE\" \"$BASE\" \"$MERGED\"
 	trustExitCode = true
 [push]
 	default = simple
@@ -21,3 +21,8 @@
 	clean = git-lfs clean %f
 	smudge = git-lfs smudge %f
 	required = true
+[commit]
+	template = /Users/alan/.stCommitMsg
+[alias]
+  rmb = "!f() { git branch --merged | grep -v "master" | while read i; do git branch -d $i; done; }; f"
+
