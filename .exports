@@ -7,4 +7,12 @@ export EDITOR="vim"
 # Turn on some more colors
 export CLICOLOR=1
 
+# tsc --watch hogs massive CPU without that due to polling file system
+export TSC_NONPOLLING_WATCHER=1
+
+export PATH="$PATH:/Users/alan/.dotnet/tools"
+
+# https://intellij-support.jetbrains.com/hc/en-us/community/posts/205964744-npm-is-installed-using-nvm-but-IntelliJ-doesn-t-know-about-it
+export NVM_SYMLINK_CURRENT=true
+export PATH="$PATH:$HOME/.nvm/current/bin"
 
