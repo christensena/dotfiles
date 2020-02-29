@@ -4,34 +4,28 @@ brew update
 
 brew upgrade
 
-brew install git
-brew install node
-brew install rbenv ruby-build
-
+brew install git git-lfs
+brew install nvm yarn
+#brew install rbenv ruby-build
+brew install python
 brew install wget --enable-iri
 brew install coreutils findutils
 brew install openssl
 brew install z
 
-brew install bash zsh
+#brew install bash zsh
 
-brew install heroku
-brew install awscli
+brew install awscli azure-cli azure-functions-core-tools@3
 
-brew install macvim --override-system-vim
+brew install mdcat
 
-brew install mongodb postgresql
+brew install terraform
+
+#brew install macvim --override-system-vim
 
 brew install p7zip
 
-# stuff needed for @jeef3's handy dandy gifify
-brew install ffmpeg
-brew tap phinze/homebrew-cask
-brew install brew-cask
-brew cask install x-quartz
-open /usr/local/Cellar/x-quartz/2.7.4/XQuartz.pkg
-brew install gifsicle
-brew install imagemagick
+brew cask install dotnet-sdk
 
 brew cleanup
 

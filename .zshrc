@@ -45,7 +45,7 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git osx brew node npm aws github ruby rake bundler vagrant virtualenv rbenv z fabric pip extract)
+plugins=(git osx brew node aws virtualenv z pip extract dotnet yarn docker terraform)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -83,12 +83,12 @@ unset file
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-eval "$(rbenv init -)"
+#eval "$(rbenv init -)"
 
 alias rake="noglob bundled_rake"
 
 alias python=/usr/local/bin/python3
-alias pip= /usr/local/bin/pip3
+alias pip=/usr/local/bin/pip3
 
 # tabtab source for serverless package
 # uninstall by removing these lines or running `tabtab uninstall serverless`
