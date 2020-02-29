@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# i think most of this is from https://gist.github.com/mvanbaak/e98b7b622ea2c8ab626d51cb88e27406
+
 # Ask for the administrator password upfront
 sudo -v
 
@@ -30,6 +32,9 @@ defaults write com.apple.screencapture disable-shadow -bool true
 #
 # Enable subpixel font rendering on non-Apple LCDs
 defaults write NSGlobalDomain AppleFontSmoothing -int 2
+
+# Don’t display the annoying prompt when quitting iTerm
+defaults write com.googlecode.iterm2 PromptOnQuit -bool false
 
 ###############################################################################
 # Finder                                                                      #

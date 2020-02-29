@@ -16,3 +16,5 @@ export PATH="$PATH:/Users/alan/.dotnet/tools"
 export NVM_SYMLINK_CURRENT=true
 export PATH="$PATH:$HOME/.nvm/current/bin"
 
+# vscode
+export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
