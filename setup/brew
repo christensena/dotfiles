@@ -15,7 +15,10 @@ brew install z
 
 #brew install bash zsh
 
-brew install awscli azure-cli azure-functions-core-tools@3
+brew install awscli azure-cli 
+
+brew tap azure/functions
+brew install azure-functions-core-tools@3
 
 brew install mdcat
 
