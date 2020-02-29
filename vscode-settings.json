@@ -1,0 +1,39 @@
+// Place your settings in this file to overwrite the default settings
+{
+  "files.trimTrailingWhitespace": true,
+  "editor.tabSize": 2,
+  "window.zoomLevel": 1,
+  "files.autoSave": "onFocusChange",
+  "editor.renderControlCharacters": true,
+  "editor.renderWhitespace": "none",
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "typescript.referencesCodeLens.enabled": false,
+  "gitlens.currentLine.enabled": false,
+  "gitlens.keymap": "chorded",
+  "importCost.typescriptExtensions": ["\\.tsx?$"],
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true
+  },
+  "barrelr.excludeFileRegex": "(\\.spec\\.|\\.test\\.|\\.e2e\\.|\\__tests__)",
+  "gitlens.historyExplorer.enabled": true,
+  "terminal.integrated.drawBoldTextInBrightColors": false,
+  "typescriptHero.codeOutline.enabled": false,
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "typescript.autoImportSuggestions.enabled": false,
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "autoimport.autoComplete": false,
+  "editor.formatOnSave": true,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "files.eol": "\n",
+  "eslint.packageManager": "yarn",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+}

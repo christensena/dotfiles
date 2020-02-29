@@ -32,21 +32,32 @@ fail () {
   exit
 }
 
-# link_file () {
-# }
+link_file () {
+  local symlink="$1"
+  local target="$HOME/$symlink"
+  local source="$(pwd)/$symlink"
+
+  if [ -n "$2" ]; then
+    source="$(pwd)/$2"
+  fi
+
+  if [ -e "$target" ] && ! [ -h "$target" ]; then
+    fail "$target exists. Please backup and/or remove this first"
+  elif [ -h "$target" ]; then
+    success "Re-linking $symlink"
+    rm $target
+    ln -s "$source" "$target"
+  else
+    success "Linking $symlink"
+    ln -s "$source" "$target"
+  fi
+}
 
 info "Linking dotfiles"
 
-for symlink in ${symlinks[@]}
+for symlink in ${symlinks[*]}
 do
-  if [ -e "$HOME/$symlink" ] && ! [ -h "$HOME/$symlink" ]; then
-    fail "$HOME/$symlink exists. Please backup and/or remove this first"
-  elif [ -h "$HOME/$symlink" ]; then
-    success "Re-linking $symlink"
-    rm "$HOME/$symlink"
-    ln -s "$(pwd)/$symlink" "$HOME/$symlink"
-  else
-    success "Linking $symlink"
-    ln -s "$(pwd)/$symlink" "$HOME/$symlink"
-  fi
+  link_file $symlink
 done
+
+link_file Library/Application\ Support/Code/User/settings.json vscode-settings.json
