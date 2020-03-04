@@ -61,3 +61,4 @@ do
 done
 
 link_file Library/Application\ Support/Code/User/settings.json vscode-settings.json
+link_file .ssh/config ssh-config
