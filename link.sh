@@ -45,7 +45,7 @@ link_file () {
     fail "$target exists. Please backup and/or remove this first"
   elif [ -h "$target" ]; then
     success "Re-linking $symlink"
-    rm $target
+    rm "$target"
     ln -s "$source" "$target"
   else
     success "Linking $symlink"
