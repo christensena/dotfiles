@@ -18,3 +18,6 @@ export PATH="$PATH:$HOME/.nvm/current/bin"
 
 # vscode
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+
+# dotnet tools 
+export PATH="$PATH:/Users/alanchristensen/.dotnet/tools"
